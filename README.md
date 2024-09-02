@@ -17,6 +17,13 @@ ${\textsf{\color{red}S}}$ (smooth curveto): 부드러운 베지어 곡선을 그
 ${\textsf{\color{red}Q}}$ (quadratic Bézier curve): 2차 베지어 곡선을 그림. Q x1,y1 x,y<br>
 ${\textsf{\color{red}T}}$ (smooth quadratic Bézier curveto): 부드러운 2차 베지어 곡선을 그림.<br>
 ${\textsf{\color{red}A}}$ (elliptical Arc): 타원형 호를 그림. A rx,ry x-axis-rotation large-arc-flag,sweep-flag x,y<br>
-${\textsf{\color{red}Z}}$ (closepath): 현재 경로를 닫는다.
+${\textsf{\color{red}Z}}$ (closepath): 현재 경로를 닫는다.<br>
+<br>
+${\textsf{\color{red}stroke 속성}}$은 SVG 도형의 경계선 색상을 정의한다. 이 속성을 사용하면 도형의 외곽선, 즉 테두리의 색상을 설정할 수 있다.(rgb 적용도 가능하다) border-shadow랑 비슷?<br>
+${\textsf{\color{red}즉. 도형의 경계선 색상과 스타일을 정의함.}}$<br>
+<br>
+${\textsf{\color{red}fill 속성}}$은 SVG 도형의 내부 색상을 정의한다. 이 속성을 사용하여 도형의 내부를 색상으로 채울 수 있다.(rgb 적용도 가능) backgroud-color 랑 비슷? <br>
+${\textsf{\color{red}즉. 도형의 내부 색상과 스타일을 정의함.}}$
+
 
 
